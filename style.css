@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900');
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* make scrollbar invisible */
+}
+
+body {
+    background-color: #f45c42;
+    color: #3f3f3f;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+h4 {
+    color: #878787;
+}
+
+hr {
+    border: 0.5px solid #9b9b9b;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    background-color: #dddddd;
+    border-radius: 15px;
+    padding: 40px 50px;
+    margin: 25px auto 25px auto;
+    width: 600px;
+}
+
+.centered {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-color: #dddddd;
+    }
+
+    .main {
+        margin: 0;
+        border-radius: 0;
+        width: calc(100% - 100px);
+    }
+
+    .main hr {
+        max-width: 400px;
+    }
+
+    .main h2 {
+        margin: 50px auto 0px auto;
+        font-size: 1.5em;
+    }
+
+    .subtext {
+        text-align: center;
+    }
+}
