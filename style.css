@@ -47,6 +47,11 @@ a:hover {
     text-align: center;
 }
 
+img{
+    max-width:450px;
+    max-height:450px;
+}
+
 @media only screen and (max-width: 1000px) {
     .main{
         width: 500px;
